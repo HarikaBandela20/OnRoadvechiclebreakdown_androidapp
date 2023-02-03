@@ -19,8 +19,8 @@ _{ Users of On Road Vehicle Breakdown Assistance (ORVBA) system can search for l
 * To run the android application, click the run icon on the toolbar or simply press Shift + F10 after importing the file that is file -> new -> import project
 
 ## Screenshots
-![Screenshot of app asking device's location access]<img src="images/1.jpg" width="100" height="100"/>
-![Screenshot of main page]<img src="images/2.jpg" width="100" height="100"/>
+![Screenshot of app asking device's location access]<img src="images/1.jpg" width="200" height="450"/>
+![Screenshot of main page]<img src="images/2.jpg" width="200" height="450"/>
 
 ## Permissions
 On Android versions prior to Android 6.0, App requires the following permissions:
