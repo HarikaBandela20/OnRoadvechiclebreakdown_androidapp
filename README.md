@@ -20,10 +20,8 @@ _{ Users of On Road Vehicle Breakdown Assistance (ORVBA) system can search for l
 
 ## Screenshots
 
-![Screenshot of app asking device's location access]<img src="images/1.jpg" width="200" height="450"/>
-
-
-![Screenshot of main page]<img src="images/2.jpg" width="200" height="450"/>
+<img src="images/1.jpg" title="app asks for device's location access" width="200" height="450"/>
+<img src="images/2.jpg" title="main page" width="200" height="450"/>
 
 ## Permissions
 On Android versions prior to Android 6.0, App requires the following permissions:
