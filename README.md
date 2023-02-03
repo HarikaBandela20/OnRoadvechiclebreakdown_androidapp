@@ -1,7 +1,7 @@
 # OnRoadvechiclebreakdown_androidapp
 
 ***
-## _{ On Road Vehicle Breakdown Assistance (ORVBA) is going to be a good solution for the people who seek help in the remote locations with mechanical issues of their vehicle. Users of the On Road Vehicle Breakdown Assistance will be the registered public and they will be getting connected with the particular mechanic through the trustworthy On Road Vehicle Breakdown Assistance (ORVBA) system. }_
+#### _{ On Road Vehicle Breakdown Assistance (ORVBA) is going to be a good solution for the people who seek help in the remote locations with mechanical issues of their vehicle. Users of the On Road Vehicle Breakdown Assistance will be the registered public and they will be getting connected with the particular mechanic through the trustworthy On Road Vehicle Breakdown Assistance (ORVBA) system. }_
 
 ## Tools/Technologies Used
 * Java - Java language was designed to be small, simple and portable across platforms, operating systems, both at the source and at the binary level
@@ -19,7 +19,7 @@ _{ Users of On Road Vehicle Breakdown Assistance (ORVBA) system can search for l
 * To run the android application, click the run icon on the toolbar or simply press Shift + F10 after importing the file that is file -> new -> import project
 
 ## Screenshots
-![Screenshot of app asking device's location access](OnRoadVehicleBreakDown/imagesimages/1.jpg)
+![Screenshot of app asking device's location access](OnRoadVehicleBreakDown/images/1.jpg)
 ![Screenshot of main page](OnRoadVehicleBreakDown/images/2.jpg)
 
 ## Permissions
