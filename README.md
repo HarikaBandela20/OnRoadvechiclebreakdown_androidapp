@@ -16,7 +16,11 @@
 _{ Users of On Road Vehicle Breakdown Assistance (ORVBA) system can search for list of mechanic at any location or the nearby locations which will help them in an unexpected situations raised by the mechanical issues of their vehicles. Only the licensed mechanics can get listed here while the search. Road assistance for car and there are available mechanic who can come and repair the mechanical issues in the users vehicle and also provides information about the nearby petrol bunks. }_
 
 ## Setup Requirements
-*To run the android application, click the run icon on the toolbar or simply press Shift + F10 after importing the file that is file -> new -> import project
+* To run the android application, click the run icon on the toolbar or simply press Shift + F10 after importing the file that is file -> new -> import project
+
+## Screenshots
+![Screenshot of app asking device's location access](images/1.jpg)
+![Screenshot of main page](images/2.jpg)
 
 ## Permissions
 On Android versions prior to Android 6.0, App requires the following permissions:
