@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Emergency Service"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/mechanicregisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mechanic Register"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/userviewusers"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for Near By"/>
+
+    <Button
+        android:id="@+id/emergencyalert"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Alert"/>
+
+</LinearLayout>

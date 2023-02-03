@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.AddFamily"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile 1"
+        android:id="@+id/addfamilymobile1"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile 2"
+        android:id="@+id/addfamilymobile2"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile 3"
+        android:id="@+id/addfamilymobile3"/>
+
+    <Button
+        android:id="@+id/addFamilyButton"
+        android:text="Save"
+        android:textSize="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

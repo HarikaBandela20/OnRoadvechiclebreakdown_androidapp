@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ListUsers">
+
+    <RadioGroup
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radiogroup">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:checked="true"
+            android:layout_weight="1"
+            android:id="@+id/radiopolice"
+            android:layout_height="wrap_content"
+            android:text="police"/>
+
+        <RadioButton
+            android:id="@+id/radiohospital"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="hospital"/>
+
+        <RadioButton
+            android:id="@+id/radiomechanic"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="mechanic"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:padding="20dp"
+        android:id="@+id/viewUsersList"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/UsersList"></ListView>
+
+</LinearLayout>

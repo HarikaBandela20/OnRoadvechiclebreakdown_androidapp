@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onroadvehiclebreakdown">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnRoadVehicleBreakDown">
+        <activity android:name=".view.UpdateProfile"></activity>
+        <activity android:name=".view.MechanicHome" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.AddPolice" />
+        <activity android:name=".view.MechanicRegistration" />
+        <activity android:name=".view.AddFamily" />
+        <activity android:name=".view.AddHospital" />
+        <activity android:name=".view.AdminHome" />
+        <activity android:name=".view.ListUsers" />
+        <activity android:name=".view.LoginActivity" />
+        <activity android:name=".view.RegisterActivity" />
+        <activity android:name=".view.ViewUser" />
+        <activity android:name=".view.AdminListUser" />
+    </application>
+
+</manifest>
